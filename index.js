@@ -16,6 +16,6 @@ app.get('/', (req, res) => {
     res.render('layouts/index');
 });
 
-app.listen(3000, () => {
-    console.log('LISTENING TO THE PORT 3000');
+app.listen(port, hostname:() => {
+    console.log('LISTENING TO THE PORT');
 });
