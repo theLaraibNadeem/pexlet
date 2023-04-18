@@ -1,0 +1,104 @@
+/* Services Section Start here */
+.services-section {
+  background-color: #000123;
+  /* height: 95vh; */
+  /* padding: 60px; */
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.services-section:before {
+  content: "";
+  position: absolute;
+  top: -200px;
+  left: -200px;
+  width: 500px;
+  height: 500px;
+  opacity: 0.3;
+  background-image: radial-gradient(#ff0f7b 20%, transparent 70%);
+}
+.services-section .header::after{
+  content: "Experience out of this world restaurant services with Pixlet's rocket tech!";
+}
+.services-section h2,.case-study h2{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.services-section p, .case-study p{
+  text-align: center;
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.services-section .container{
+  position: relative;
+}
+.services-section .card-body .card-text{
+  font-size: 0.68rem;
+  font-family: 'secondary-font';
+  text-align: center;
+}
+.services-section .row{
+  /* border: 4px solid green; */
+  width: 56vw;
+}
+/* Card STyle  starts */
+.card {
+  border: 0;
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+}
+
+.card img {
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s, filter 0.3s;
+  opacity: 0.7;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+  /* filter: brightness(120%); */
+}
+
+.card .card-body{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+
+.card:hover .card-body {
+  opacity: 1;
+  cursor: pointer;
+}
+.services-section .col-lg-4{
+  width: fit-content;
+  min-width: 15rem;
+  margin-top: 2rem;
+
+}
+.services-section .row{
+  align-items: center;
+  justify-content: center;
+  min-width: 15rem;
+}
+/* Services Section End here */

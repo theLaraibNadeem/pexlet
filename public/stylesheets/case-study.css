@@ -1,0 +1,68 @@
+.case-study{
+    width: 100%;
+    /* background-color: #000123; */
+    background: linear-gradient(180deg, #000123, #250125);
+    /* color: #fff;  */
+    /* Set text color to white for better readability */
+    /* padding: 20px; */
+    /* border: 4px solid #000123; */
+  }
+  .case-study .header::after{
+    content: "Here's Why You Should Work With Us";
+  }
+
+  .case-study .header{
+    text-transform: capitalize;
+  }
+  .case-study .bi{
+    font-size: 3rem;
+    color: var(--secondary-color);
+  }
+  
+  .case-study .col-lg-6 .col-md-12{
+    /* border: 4px solid red; */
+    text-align: center;
+  }
+  .case-study .col-lg-6 .col-lg-2{
+    /* border: 4px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .case-study .col-lg-6 i{
+    /* border: 4px solid green; */
+    height: fit-content;
+    margin: 2rem 0; 
+  }
+  .case-study .col-lg-6 h3{
+    font-size: 1.8rem;
+    color: white;
+   
+  }
+  .case-study .col-lg-6 p{
+    text-align: left;
+    font-size: 0.7rem;
+    text-align: left;
+    
+  }
+  .case-study .col-lg-6 .row{
+    margin: 1rem;
+    
+  }
+  .case-study .row{
+    /* border: 4px solid red; */
+  }
+  @media (max-width: 575.98px) { 
+    .case-study .col-lg-10 h3{
+      /* text-align: center; */
+      font-size: 1.5rem;
+    }
+    .case-study .header{
+      font-size: 1.9rem;
+      /* border: 4px solid red; */
+    }
+    .case-study .header::after{
+      font-size: 1rem;
+    }
+ }
